@@ -1,0 +1,15 @@
+.col img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+footer{
+    background-color: gray;
+    height: 100px;
+    position: fixed
+}
+
+
