@@ -3,71 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Curriculo</title>
+    <title>Meu currículo</title>
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
 </head>
 <body>
-    <div class="container-fluid">
-      <header>
-        <!-- Aqui vai o menu de navegação -->
-      </header>
-    </div>
-    <div class="container">
-      <main>
-        <section>
-          <div class="row">
-            <div>
-              <h2>Sobre mim</h2><p></p>
-            </div>
+  <div class="container-fluid">
+
+    <style>
+      body {
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+    </style>
+    <header>
+      <!-- Aqui vai o menu de navegação -->
+    </header>
+  </div>
+  <div class="container">
+    <main class="content">
+    <section>
+        <div class="row">
+          <div>
+            <h2>Sobre Mim</h2>
           </div>
-          <div class="row"></div>
-            <div class="col">
-              <!-- Aqui aparece minha descrição -->
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <!-- Aqui aparece minha descrição -->
+
+          </div>
+          <div class="col-md-6 offset-md-3">
+            <!-- Aqui aparece minha imagem -->
+            <div class="grid-container">
+              <img src="img/murilo.jpeg" alt="Imagem Descrição">
+            
               <p><h5>Nome:</h5> Murilo Gonçalves da Silva<br>
 
-<h5>Formação Acadêmica:</h5> Terminando o 1º ano do Ensino Médio na Etec Professora Maria Cristina Medeiros(2024)<br>
-
-<h5>Curso:</h5> Técnico em Informática para Internet(2024 a 2026)<br>
-
-<h5>Idade:</h5> 15 anos<br>
-
-<h5>Nascimento:</h5> 10/06/2009<br>
-
-<h5>Objetivo:</h5> Atuar na área de TI e implementar a medicina dentro, criando e inovando uma melhor tecnologia dentro da área de medicina.<br>
-
-<h5>Experiência:</h5> Trabalhei como atendente em uma lanchonete de bairro com meu amigo(2023)<br></p>
-            </div>
-            <div class="col">
-              <!-- Aqui aparece minha imagem -->
-              <img src="img/murilo.jpeg" alt="Minha Foto" class="img-fluid rounded-circle mx-auto d-block">
+              <h5>Formação Acadêmica:</h5> Terminando o 1º ano do Ensino Médio na Etec Professora Maria Cristina Medeiros(2024)<br>
+              
+              <h5>Curso:</h5> Técnico em Informática para Internet(2024 a 2026)<br>
+              
+              <h5>Idade:</h5> 15 anos<br>
+              
+              <h5>Nascimento:</h5> 10/06/2009<br>
+              
+              <h5>Objetivo:</h5> Atuar na área de TI e implementar a medicina dentro, criando e inovando uma melhor tecnologia dentro da área de medicina.<br>
+              
+              <h5>Experiência:</h5> Trabalhei como atendente em uma lanchonete de bairro com meu amigo(2023)<br></p>  
+          </div>
+          </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+          <div>
+            <h2>Meus Projetos</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="row">
+                <h5>Catálogo de filmes</h5>
+                <div class="col-md-12 mb-4">
+                  <a href="https://leoteisil.github.io/Catalogo_Filmes_OMDB/filmes.html" target="_blank">
+                    <img src="img/Filmes.jpg" alt="Catálogo de Filmes" class="img-filme">
+                  </a>
+                </div>
+                
+                <h5>To Do List</h5>
+                <a href="https://leoteisil.github.io/To_Do_List_JS-/" target="_blank">
+                <img src="img/ToDoList.jpg" alt="" class="img-todo">
+                </a>
               </div>
-
-        </section>
-        <section>
-          <div class="row">
-            <div>
-              <h2>Meus Projetos</h2>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="row">
+                <h5>Jogo da velha</h5>
+                <div class="col-md-12 mb-4">
+                  <a href="https://leoteisil.github.io/Jogo-da-velha/" target="_blank">
+                  <img src="img/Captura de tela 2024-09-15 192530.jpg" alt="" class="img-jogo">
+                  </a>
+                </div>
+                <h5>Site de Calculadoras</h5>
+                <a href="https://leoteisil.github.io/calc-varieties-JS/" target="_blank">
+                  <img src="img/Calculadoras.jpg" alt="" class="img-calc">
+              </div>
             </div>
           </div>
-          <div class="row">
-            <!-- Aqui vai ter 4 colunas que vão conter um card cada uma delas -->
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>      <h2>Habilidades</h2>
+      </div>
+      <div class="container quadro">
+        <div class="row align-items-center">
+          <div class="col-9">
+            <h3>HTML</h3>
+            <p></p>
           </div>
-        </section>
-      </main>
-    </div>
-    <div class="container-fluid">
-      <footer>
-        <!-- Aqui vai o rodapé -->
-        <p><h5>E-mail:</h5> goncalves.murilosilva@gmail.com<br>
-          <h5>E-mail Institucional:</h5>murilo.silva420@etec.sp.gov.br<br>
-          
-          <h5>Contato: </h5>(11)972555927<br>
-          
-          <h5>Endereço:</h5> Estrada Ribeirão Pires, Via Anchieta, Jardim Caçula.
-          São Paulo, SP, Brasil.<br></p>
-      </footer>
-    </div>
+          <div class="col-3">
+            <figure>
+              <img src="img/html.jpeg" alt="Descrição da imagem" class="linguagens img-fluid">
+            </figure>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container quadro">
+        <div class="row align-items-center">
+          <div class="col-9">
+            <h3>CSS</h3>
+            <p></p>
+          </div>
+          <div class="col-3">
+            <figure>
+              <img src="img/css2.png" alt="Descrição da imagem" class="linguagens img-fluid">
+            </figure>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container quadro">
+        <div class="row align-items-center">
+          <div class="col-9">
+            <h3>JavaScript</h3>
+            <p></p>
+          </div>
+          <div class="col-3">
+            <figure>
+              <img src="img/js.png" alt="Descrição da imagem" class="linguagens img-fluid">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+     
+    </main>
+  <div class="container-fluid">
+    <footer>
+      <!-- Aqui vai o rodapé -->
+    </footer>
+  </div>
 
-    <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
